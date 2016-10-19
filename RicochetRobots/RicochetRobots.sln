@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23D2B155-59EE-49DD-A8B3-640F41B140B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC69F68B-067A-4828-8968-ECEBDF7FCBBD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RicochetRobots", "src\RicochetRobots\RicochetRobots.xproj", "{2C8095EC-138D-4B1C-B1E0-F0DF128CE676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C8095EC-138D-4B1C-B1E0-F0DF128CE676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8095EC-138D-4B1C-B1E0-F0DF128CE676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8095EC-138D-4B1C-B1E0-F0DF128CE676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8095EC-138D-4B1C-B1E0-F0DF128CE676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C8095EC-138D-4B1C-B1E0-F0DF128CE676} = {23D2B155-59EE-49DD-A8B3-640F41B140B3}
+	EndGlobalSection
+EndGlobal
